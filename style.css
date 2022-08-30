@@ -1,0 +1,279 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5rem;
+    width: 100%;
+    
+
+
+}
+.general{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Banner-home-shop.jpg?id=22130);
+
+}
+nav .box1{
+    width: 15%;
+}
+nav .box1 img{
+    width: 100%;
+}
+nav .box a{
+    text-decoration: none;
+    margin-right: 45px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+nav .box .new {
+    color: black;
+    background-color: #fff;
+    padding: 16px 40px;
+    letter-spacing: 0.5px;
+    border-radius:22px;
+    font-weight:bold;
+    font-size: 17px;
+}
+.first .box{
+    background-position: center;
+    background-size: cover;
+    padding: 10rem;
+   
+    
+}
+.first .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.first .box .left{
+    width: 100%;
+}
+
+.first .box .left h1{
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    padding:15px 0px;
+}
+.first .box .left p{
+    font-size: 20px;
+    color:#fff;
+    padding-bottom: 15px;
+}
+.first .box .left a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(0, 107, 166);
+    color:#fff;
+    margin-top: 25px;
+    padding: 15px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 20px;
+
+    
+    
+
+
+}
+.first .box .left a:hover{
+    background-color:#337ab7;
+}
+.second .masks {
+    position: relative;
+    text-align: center;
+}
+.second .masks .pic img{
+}
+
+.second .masks  h2{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    padding:3rem 0ox ;
+
+    
+
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 5rem;
+
+}
+.boxes .box{
+    padding: 4rem 0px;
+    width: 31%;
+    position: relative;
+}
+.boxes .box .img img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.boxes .box .info{
+    position: absolute;
+    bottom: 8rem;
+    left:20px;
+}
+.boxes .box .icon{
+    position:absolute;
+    right: 25px;
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 7px;
+    background-color:#fff;
+    border-radius: 15px;
+
+    
+    
+}
+.boxes .box .icon i{
+    padding-bottom: 6px;
+    padding-top: 6px;
+    
+}
+.boxes .box .info span{
+    display: block;
+}
+.boxes .box .info a{
+    text-decoration: none;
+    color: #223241;
+    font-size: 20px;
+}
+.boxes .box .info span{
+    color:#223241;
+    font-size: 15px;
+}
+.second .explore{
+    text-align:center;
+
+    
+}
+.second .explore  a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(0, 107, 166);
+    color:#fff;   
+    padding: 15px 30px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 20px;
+
+    
+    
+
+
+}
+.second .explore a:hover{
+    background-color:#337ab7;
+}
+.third{
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/quality-banner.jpg?id=22083);
+    background-position: center;
+    background-size: cover;
+    padding: 7rem;
+    margin-top: 3rem;
+}
+.third .thirdinfo{
+    padding: 10px 3rem;
+    position: relative;
+
+}
+.third .thirdinfo h2{
+    position: absolute;
+    bottom: 8rem;
+    left: 90px;
+    color:#fff;
+    font-size: 45px;
+    
+}
+.third .thirdinfo .pdiv p{
+    font-size: 18px;
+    padding: 15px 0px;
+    padding-bottom:40px ;
+
+    color: #fff;
+    width:50%
+}
+.third .thirdinfo a{
+    text-decoration: none;
+    color:blue;
+    background-color: #fff;
+    padding: 20px 45px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.firstdiv{
+    margin: 15px -11rem;
+
+}
+
+.latestpro h2{
+    position:absolute;
+    bottom: 0px;
+    left: 46%;
+    
+}
+.latestpro{
+    position: relative;
+    text-align: center;
+    
+}
+.mainbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0rem 22rem;
+    
+}
+.mainbox .box{
+    width: 32%;
+    padding: 30px 0px;
+    position: relative;
+}
+.mainbox .box img{
+    width: 100%;
+    border-radius: 10px;
+
+    
+}
+.mainbox .box .info{
+    position:absolute;
+    bottom:50px;
+    left:20px;
+    
+}
+.mainbox .box .info a{
+    display: block;
+    text-decoration: none;
+}
+.mainbox .box{
+    position: relative;
+}
+.mainbox .box .icon{
+    position: absolute;
+    right: 25px;
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+    padding: 18px 7px;
+    background-color:#fff;
+    border-radius: 15px;
+    
+}
+.mainbox .box .icon i{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
